@@ -9,7 +9,7 @@ $(document).ready(function () {
         let description = $('#jobDescription').val().trim();
 
 
-        if (!title || !company || !location) {
+        if (!job_title || !company || !location) {
             alert('🚨 Please fill out all required fields!');
             return;
         }
@@ -42,12 +42,12 @@ function loadJobs() {
     $.ajax({
         url: 'http://localhost:8080/api/v1/job/getAll', // Same endpoint
         method: 'GET',
-        success: function (jobs) {
+        success: function (response) {
             $('#jobsTableBody').empty(); // Clear existing
-            jobs.forEach((job, index) => {
+            response.data.forEach((job) => {
                 $('#jobsTableBody').append(`
                     <tr>
-                        <td>${index + 1}</td>
+                        <td>${job.id}</td>
                         <td>${job.jobTitle}</td>
                         <td>${job.company}</td>
                         <td>${job.location}</td>
