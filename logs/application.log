@@ -1,0 +1,67 @@
+2025-07-24T13:52:23.906+05:30  INFO 14192 --- [11_Back_End] [main] org.example.o11_back_end.Application     : Starting Application using Java 17.0.6 with PID 14192 (C:\Users\Prabash Perera\Desktop\AAD\SPRING\SpringFrameWork\11_Back_End\target\classes started by Prabash Perera in C:\Users\Prabash Perera\Desktop\AAD\SPRING\SpringFrameWork)
+2025-07-24T13:52:23.911+05:30  INFO 14192 --- [11_Back_End] [main] org.example.o11_back_end.Application     : No active profile set, falling back to 1 default profile: "default"
+2025-07-24T13:52:24.980+05:30  INFO 14192 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-24T13:52:25.075+05:30  INFO 14192 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2025-07-24T13:52:25.771+05:30  INFO 14192 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-24T13:52:25.786+05:30  INFO 14192 --- [11_Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-24T13:52:25.786+05:30  INFO 14192 --- [11_Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24T13:52:25.844+05:30  INFO 14192 --- [11_Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-24T13:52:25.845+05:30  INFO 14192 --- [11_Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1818 ms
+2025-07-24T13:52:26.025+05:30  INFO 14192 --- [11_Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-24T13:52:26.080+05:30  INFO 14192 --- [11_Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-24T13:52:26.127+05:30  INFO 14192 --- [11_Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-24T13:52:26.441+05:30  INFO 14192 --- [11_Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-24T13:52:26.471+05:30  INFO 14192 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-24T13:52:26.768+05:30  INFO 14192 --- [11_Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59fea5f5
+2025-07-24T13:52:26.771+05:30  INFO 14192 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-24T13:52:26.845+05:30  WARN 14192 --- [11_Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-24T13:52:26.866+05:30  INFO 14192 --- [11_Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-24T13:52:27.894+05:30  INFO 14192 --- [11_Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-24T13:52:27.953+05:30  INFO 14192 --- [11_Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24T13:52:28.218+05:30  INFO 14192 --- [11_Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-24T13:52:28.287+05:30  WARN 14192 --- [11_Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24T13:52:28.668+05:30  INFO 14192 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-24T13:52:28.679+05:30  INFO 14192 --- [11_Back_End] [main] org.example.o11_back_end.Application     : Started Application in 5.555 seconds (process running for 6.547)
+2025-07-24T13:54:09.220+05:30  INFO 14192 --- [11_Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-24T13:54:09.376+05:30  INFO 14192 --- [11_Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-24T13:54:09.380+05:30  INFO 14192 --- [11_Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24T13:54:09.383+05:30  INFO 14192 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-24T13:54:09.392+05:30  INFO 14192 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-24T13:54:14.631+05:30  INFO 12564 --- [11_Back_End] [main] org.example.o11_back_end.Application     : Starting Application using Java 17.0.6 with PID 12564 (C:\Users\Prabash Perera\Desktop\AAD\SPRING\SpringFrameWork\11_Back_End\target\classes started by Prabash Perera in C:\Users\Prabash Perera\Desktop\AAD\SPRING\SpringFrameWork)
+2025-07-24T13:54:14.635+05:30  INFO 12564 --- [11_Back_End] [main] org.example.o11_back_end.Application     : No active profile set, falling back to 1 default profile: "default"
+2025-07-24T13:54:15.582+05:30  INFO 12564 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-24T13:54:15.691+05:30  INFO 12564 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+2025-07-24T13:54:16.295+05:30  INFO 12564 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-24T13:54:16.307+05:30  INFO 12564 --- [11_Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-24T13:54:16.308+05:30  INFO 12564 --- [11_Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24T13:54:16.357+05:30  INFO 12564 --- [11_Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-24T13:54:16.358+05:30  INFO 12564 --- [11_Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1664 ms
+2025-07-24T13:54:16.516+05:30  INFO 12564 --- [11_Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-24T13:54:16.576+05:30  INFO 12564 --- [11_Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-24T13:54:16.612+05:30  INFO 12564 --- [11_Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-24T13:54:16.916+05:30  INFO 12564 --- [11_Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-24T13:54:16.945+05:30  INFO 12564 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-24T13:54:17.264+05:30  INFO 12564 --- [11_Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c50cd7d
+2025-07-24T13:54:17.267+05:30  INFO 12564 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-24T13:54:17.331+05:30  WARN 12564 --- [11_Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-24T13:54:17.349+05:30  INFO 12564 --- [11_Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-24T13:54:18.227+05:30  INFO 12564 --- [11_Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-24T13:54:18.276+05:30  INFO 12564 --- [11_Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24T13:54:18.517+05:30  INFO 12564 --- [11_Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-24T13:54:18.588+05:30  WARN 12564 --- [11_Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24T13:54:18.949+05:30  INFO 12564 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-24T13:54:18.958+05:30  INFO 12564 --- [11_Back_End] [main] org.example.o11_back_end.Application     : Started Application in 4.967 seconds (process running for 5.845)
