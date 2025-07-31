@@ -10,6 +10,7 @@
         <module name="02_Spirng_Beans_LifeCycle" />
         <module name="O11_Back_End" />
         <module name="09_Spring_Web_Mvc" />
+        <module name="Auth_BackEnd" />
         <module name="07_Spring_Env" />
         <module name="10_REST_Controllers" />
         <module name="03_DI_with_Spring" />
@@ -18,11 +19,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Auth_Backend" target="17" />
       <module name="Configuration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Auth_BackEnd" options="-parameters" />
+      <module name="Auth_Backend" options="-parameters" />
       <module name="O11_Back_End" options="-parameters" />
     </option>
   </component>

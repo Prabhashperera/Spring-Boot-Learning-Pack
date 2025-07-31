@@ -1,0 +1,5 @@
+org\example\bean\SpringBean.class
+org\example\config\AppConfig.class
+org\example\bean\TestBean.class
+org\example\bean\TestBean2.class
+org\example\AppInit.class

@@ -25,6 +25,11 @@
         <webroots>
           <root url="file://$MODULE_DIR$/09_Spring_Web_Mvc/web" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/09_Spring_Web_Mvc/src/main/java" />
+          <root url="file://$MODULE_DIR$/09_Spring_Web_Mvc/src/main/resources" />
+          <root url="file://$MODULE_DIR$/09_Spring_Web_Mvc/target/generated-sources/annotations" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
