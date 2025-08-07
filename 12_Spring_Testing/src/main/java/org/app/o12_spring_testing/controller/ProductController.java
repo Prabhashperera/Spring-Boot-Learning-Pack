@@ -17,7 +17,7 @@ import java.util.List;
 public class ProductController {
     private final ProductService productService;
 
-    @GetMapping(path = "/get", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/get")
     public ResponseEntity<ApiResponse> getProducts() {
         List<Product> allProducts = productService.getAllProducts();
         return ResponseEntity.ok(
@@ -25,9 +25,7 @@ public class ProductController {
         );
     }
 
-    @PostMapping(path = "/create",
-            consumes = MediaType.APPLICATION_JSON_VALUE,
-            produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(path = "/create")
     public ResponseEntity<ApiResponse> createProduct(@RequestBody Product product) {
         Product savedProduct = productService.createProduct(product);
         return ResponseEntity.status(HttpStatus.CREATED)

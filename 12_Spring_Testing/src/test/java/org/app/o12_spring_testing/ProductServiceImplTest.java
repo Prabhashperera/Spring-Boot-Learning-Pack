@@ -47,13 +47,24 @@ public class ProductServiceImplTest {
 
     @Test
     void shouldUpdateProduct() {
-        when(productRepo.save(any(Product.class))).thenReturn(product);
+        Product updateProducts = Product.builder()
+                .id(1)
+                .name("Update Products")
+                .price(10.11)
+                .build();
 
-        Product saveProduct = productService.createProduct(product);
-        Assertions.assertNotNull(saveProduct);
-        Assertions.assertEquals(product.getId(), saveProduct.getId());
-        Assertions.assertEquals(product.getName(), saveProduct.getName());
-        Assertions.assertEquals(product.getPrice(), saveProduct.getPrice());
-        verify(productRepo, times(1)).save(any(Product.class));
+        when(productRepo.findById(1)).thenReturn(Optional.of(product));
+        when(productRepo.save(any(Product.class))).thenReturn(updateProducts);
+
+        //action
+        Product result = productService.updateProduct(updateProducts);
+        //assert
+        Assertions.assertNotNull(result);
+        Assertions.assertEquals(updateProducts, result);
+        Assertions.assertEquals("Update Products", result.getName());
+        Assertions.assertEquals(10.11, result.getPrice());
+        verify(productRepo, times(1)).findById(1);
     }
+
+
 }
