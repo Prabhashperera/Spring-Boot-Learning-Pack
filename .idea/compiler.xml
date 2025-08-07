@@ -17,6 +17,15 @@
         <module name="01_Spring_Core" />
         <module name="06_Runtime_Value_Injection" />
       </profile>
+      <profile name="Annotation profile for 12_Spring_Testing" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="O12_Spring_Testing" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Auth_Backend" target="17" />
@@ -28,6 +37,7 @@
       <module name="Auth_BackEnd" options="-parameters" />
       <module name="Auth_Backend" options="-parameters" />
       <module name="O11_Back_End" options="-parameters" />
+      <module name="O12_Spring_Testing" options="-parameters" />
     </option>
   </component>
 </project>
